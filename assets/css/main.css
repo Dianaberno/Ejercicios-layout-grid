@@ -5,7 +5,7 @@
 }
 
 .container {
-    width: 200%;
+    width: 100%;
     height: 200px;
     max-width: 1200px;
     margin-left: 10px;
@@ -57,12 +57,12 @@
 
 .container1 {
     width: 100%;
-    height: 800px;
+    height: 1255px;
     max-width: 1200px;
     margin: 0px auto;
     background: yellow;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 100px;
     float: left;
 }
 
@@ -77,58 +77,59 @@
 }
 
 [class*="col1-"] {
-    padding: 70px;
+    padding: 190px;
     float: left;
     display: inline-block;
     text-align: center;
     background: #F08080;
-    margin: 20px;
+    margin: 10px;
 }
 
 .col1-1 {
-    width: 33.32%;
+    width: 8.33%;
 }
 
 .col1-2 {
-    width: 33.32%;
+    width: 8.33%;
 }
 
 .col1-3 {
-    width: 33.32%;
+    width: 8.33%;
 }
 
 .col1-4 {
-    width: 33.32%;
+    width: 8.33%;
 }
 
 .col1-5 {
-    width: 33.32%;
+    width: 8.33%;
 }
 
 .col1-6 {
-    width: 33.32%;
+    width: 8.33%;
 }
 
 .col1-7 {
-    width: 33.32%;
+    width: 8.33%;
 }
 
 .col1-8 {
-    width: 33.32%;
+    width: 8.33%;
 }
 
 .col1-9 {
-    width: 33.32%;
+    width: 8.33%;
 }
 
 .container2 {
-    width: 540px;
-    height: 600px;
+    width: 100%;
+    height: 1255px;
     max-width: 1200px;
     margin: 0px auto;
     margin-left: 10px;
     background: yellow;
     margin-top: 10px;
+    margin-left: 100px;
     float: left;
 }
 
@@ -143,17 +144,17 @@
 }
 
 [class*="col2-"] {
-    padding: 70px;
+    padding: 190px;
     float: left;
     display: inline-block;
     text-align: center;
     background: #F08080;
-    margin: 20px;
+    margin: 10px;
 }
 
 .col2-1 {
-    width: 91.667%;
-    padding: 170px;
+    width: 91.67%;
+    padding: 400px;
 }
 
 .col2-2 {
@@ -161,13 +162,13 @@
 }
 
 .container3 {
-    width: 540px;
-    height: 600px;
+    width: 100%;
+    height: 1080px;
     max-width: 1200px;
     margin: 0px auto;
     background: yellow;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 100px;
     float: left;
 }
 
@@ -182,12 +183,12 @@
 }
 
 [class*="col3-"] {
-    padding: 70px;
+    padding: 190px;
     float: left;
     display: inline-block;
     text-align: center;
     background: #F08080;
-    margin: 20px;
+    margin: 10px;
 }
 
 .col3-1 {
@@ -205,14 +206,14 @@
 }
 
 .container4 {
-    width: 540px;
-    height: 600px;
-    max-width: 1200px;
+    width: 100%;
+    height: 1090px;
+    max-width: 1255px;
     margin: 0px auto;
     margin-left: 10px;
     background: yellow;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 100px;
     float: left;
 }
 
@@ -227,12 +228,12 @@
 }
 
 [class*="col4-"] {
-    padding: 70px;
+    padding: 190px;
     float: left;
     display: inline-block;
     text-align: center;
     background: #F08080;
-    margin: 20px;
+    margin: 10px;
 }
 
 .col4-1 {
@@ -255,13 +256,13 @@
 }
 
 .container5 {
-    width: 540px;
-    height: 600px;
+    width: 100%;
+    height: 1255px;
     max-width: 1200px;
     margin: 0px auto;
     background: yellow;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 100px;
     float: left;
 }
 
@@ -276,12 +277,12 @@
 }
 
 [class*="col5-"] {
-    padding: 70px;
+    padding: 190px;
     float: left;
     display: inline-block;
     text-align: center;
     background: #F08080;
-    margin: 20px;
+    margin: 10px;
 }
 
 .col5-1 {
@@ -314,14 +315,14 @@
 }
 
 .container6 {
-    width: 540px;
-    height: 600px;
+    width: 100%;
+    height: 1255px;
     max-width: 1200px;
     margin: 0px auto;
     margin-left: 10px;
     background: yellow;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 100px;
     float: left;
 }
 
@@ -336,12 +337,12 @@
 }
 
 [class*="col6-"] {
-    padding: 70px;
+    padding: 190px;
     float: left;
     display: inline-block;
     text-align: center;
     background: #F08080;
-    margin: 20px;
+    margin: 10px;
 }
 
 .col6-1 {
@@ -356,11 +357,11 @@
 }
 
 .container7 {
-    width: 540px;
-    height: 600px;
+    width: 100%;
+    height: 1255px;
     max-width: 1200px;
     margin: 0px auto;
-    margin-left: 10px;
+    margin-left: 100px;
     background: yellow;
     margin-top: 10px;
     float: left;
@@ -377,12 +378,12 @@
 }
 
 [class*="col7-"] {
-    padding: 70px;
+    padding: 190px;
     float: left;
     display: inline-block;
     text-align: center;
     background: #F08080;
-    margin: 20px;
+    margin: 10px;
 }
 
 .col7-1 {
