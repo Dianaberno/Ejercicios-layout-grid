@@ -1,0 +1,504 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 200%;
+    height: 200px;
+    max-width: 1200px;
+    margin-left: 10px;
+    margin: 0px auto;
+    background: rebeccapurple;
+}
+
+.row:before,
+.row:after {
+    content: "Diana";
+    display: table;
+}
+
+.row:after {
+    clear: both;
+}
+
+[class*="col-"] {
+    min-height: 7px;
+    padding: 13px;
+    float: left;
+    text-align: center;
+    background: #F08080;
+    margin: 20px;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 8.33*2%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.67%;
+}
+
+
+/**/
+
+.container1 {
+    width: 100%;
+    height: 800px;
+    max-width: 1200px;
+    margin: 0px auto;
+    background: yellow;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.row1:before,
+.row1:after {
+    content: "";
+    display: table;
+}
+
+.row1:after {
+    clear: both;
+}
+
+[class*="col1-"] {
+    padding: 70px;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    background: #F08080;
+    margin: 20px;
+}
+
+.col1-1 {
+    width: 33.32%;
+}
+
+.col1-2 {
+    width: 33.32%;
+}
+
+.col1-3 {
+    width: 33.32%;
+}
+
+.col1-4 {
+    width: 33.32%;
+}
+
+.col1-5 {
+    width: 33.32%;
+}
+
+.col1-6 {
+    width: 33.32%;
+}
+
+.col1-7 {
+    width: 33.32%;
+}
+
+.col1-8 {
+    width: 33.32%;
+}
+
+.col1-9 {
+    width: 33.32%;
+}
+
+.container2 {
+    width: 540px;
+    height: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+    margin-left: 10px;
+    background: yellow;
+    margin-top: 10px;
+    float: left;
+}
+
+.row2:before,
+.row2:after {
+    content: "";
+    display: table;
+}
+
+.row2:after {
+    clear: both;
+}
+
+[class*="col2-"] {
+    padding: 70px;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    background: #F08080;
+    margin: 20px;
+}
+
+.col2-1 {
+    width: 91.667%;
+    padding: 170px;
+}
+
+.col2-2 {
+    width: 8.33%;
+}
+
+.container3 {
+    width: 540px;
+    height: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+    background: yellow;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.row3:before,
+.row3:after {
+    content: "";
+    display: table;
+}
+
+.row3:after {
+    clear: both;
+}
+
+[class*="col3-"] {
+    padding: 70px;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    background: #F08080;
+    margin: 20px;
+}
+
+.col3-1 {
+    width: 58.35%;
+}
+
+.col3-2 {
+    width: 8.33%;
+}
+
+.col3-3 {
+    width: 8.33%;
+    float: right;
+    margin-top: 220px;
+}
+
+.container4 {
+    width: 540px;
+    height: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+    margin-left: 10px;
+    background: yellow;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.row4:before,
+.row4:after {
+    content: "";
+    display: table;
+}
+
+.row4:after {
+    clear: both;
+}
+
+[class*="col4-"] {
+    padding: 70px;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    background: #F08080;
+    margin: 20px;
+}
+
+.col4-1 {
+    width: 91.667%;
+}
+
+.col4-2 {
+    width: 8.33%;
+    height: 360px;
+}
+
+.col4-3 {
+    width: 8.33%;
+    height: 360px;
+}
+
+.col4-4 {
+    width: 8.33%;
+    height: 360px;
+}
+
+.container5 {
+    width: 540px;
+    height: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+    background: yellow;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.row5:before,
+.row5:after {
+    content: "";
+    display: table;
+}
+
+.row5:after {
+    clear: both;
+}
+
+[class*="col5-"] {
+    padding: 70px;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    background: #F08080;
+    margin: 20px;
+}
+
+.col5-1 {
+    width: 8.33%;
+}
+
+.col5-2 {
+    width: 8.33%;
+}
+
+.col5-3 {
+    width: 8.33%;
+}
+
+.col5-4 {
+    width: 8.33%;
+}
+
+.col5-5 {
+    width: 8.33%;
+}
+
+.col5-6 {
+    width: 8.33%;
+}
+
+.col5-7 {
+    width: 8.33%;
+    float: right;
+}
+
+.container6 {
+    width: 540px;
+    height: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+    margin-left: 10px;
+    background: yellow;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.row6:before,
+.row6:after {
+    content: "";
+    display: table;
+}
+
+.row6:after {
+    clear: both;
+}
+
+[class*="col6-"] {
+    padding: 70px;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    background: #F08080;
+    margin: 20px;
+}
+
+.col6-1 {
+    width: 58.35%;
+    height: 360px;
+    margin-top: 220px;
+}
+
+.col6-2 {
+    width: 8.33%;
+    margin-top: 220px;
+}
+
+.container7 {
+    width: 540px;
+    height: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+    margin-left: 10px;
+    background: yellow;
+    margin-top: 10px;
+    float: left;
+}
+
+.row7:before,
+.row7:after {
+    content: "";
+    display: table;
+}
+
+.row7:after {
+    clear: both;
+}
+
+[class*="col7-"] {
+    padding: 70px;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    background: #F08080;
+    margin: 20px;
+}
+
+.col7-1 {
+    width: 58.35%;
+}
+
+.col7-2 {
+    width: 8.33%;
+}
+
+.col7-3 {
+    width: 58.35%;
+    height: 360px;
+}
+
+.col7-4 {
+    width: 8.33%;
+    height: 360px;
+}
+
+.container8 {
+    width: 540px;
+    height: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+    margin-left: 10px;
+    background: yellow;
+    margin-top: 10px;
+    float: left;
+}
+
+.row8:before,
+.row8:after {
+    content: "";
+    display: table;
+}
+
+.row8:after {
+    clear: both;
+}
+
+[class*="col8-"] {
+    padding: 70px;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    background: #F08080;
+    margin: 20px;
+}
+
+.col8-1 {
+    width: 8.33%;
+    height: 360px;
+}
+
+.col8-2 {
+    width: 8.33%;
+    height: 360px;
+}
+
+.col8-3 {
+    width: 8.33%;
+    height: 360px;
+}
+
+.col8-4 {
+    width: 58.35%;
+}
+
+.col8-5 {
+    width: 8.33%;
+}
+
+.container9 {
+    width: 540px;
+    height: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+    background: yellow;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.row9:before,
+.row9:after {
+    content: "";
+    display: table;
+}
+
+.row9:after {
+    clear: both;
+}
+
+[class*="col9-"] {
+    padding: 70px;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    background: #F08080;
+    margin: 20px;
+}
+
+.col9-1 {
+    width: 58.35%;
+    height: 360px;
+}
+
+.col9-2 {
+    width: 8.33%;
+    height: 360px;
+    margin-top: 220px;
+}
+
+.col9-3 {
+    width: 8.33%;
+    margin-top: -180px;
+    margin-left: 190px;
+}
